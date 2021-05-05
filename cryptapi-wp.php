@@ -106,10 +106,6 @@ class CryptoApi
 			update_option('cryptapi_secret_callback', 'c_' . rand());
 		}
 		
-		 // Redirect to the help page
-		if( ! wp_doing_ajax() ) {
-			exit( wp_redirect( admin_url( 'admin.php?page=cryptapi/help' ) ) );
-		}
     }
 	
 	/**
