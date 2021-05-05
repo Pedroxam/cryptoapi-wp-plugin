@@ -3,7 +3,7 @@
 	Plugin Name: Crypt Api
 	Description: An Easy Way to Generate Crypto Wallet
 	Author: Pedroxam
-	Author URI: github.com
+	Author URI: https://github.com/Pedroxam/cryptoapi-wp-plugin
 	Version: 1.0
 */
 
@@ -141,10 +141,6 @@ class CryptoApi
     public function cryptapi_assets()
     {
         wp_enqueue_style( 'crypt.api', CRYPTO_URL.'style.css');
-        wp_enqueue_script( 'crypt.api', CRYPTO_URL.'script.js', array( 'jquery' ),'1.0' );
-        wp_localize_script('crypt.api', 'cryptapi', array(
-            'get_ajax' =>	admin_url('admin-ajax.php', 'relative')
-        ));
     }
 
 	/**
