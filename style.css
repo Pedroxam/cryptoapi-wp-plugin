@@ -1,0 +1,38 @@
+.crypthelp, .cryptlog {
+	background: #FFF;
+	padding: 10px;
+	box-shadow: 0 0 5px #CCC;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.crypthelp span {
+	color: red;
+}
+
+.crypthelp p {
+	color: blue;
+}
+
+.crypthelp div {
+	color: green;
+}
+
+.cryptlog table {
+    border: 2px solid #555;
+    width: 100%;
+}
+
+.cryptlog table thead tr th {
+	font-weight: 700;
+    border-bottom: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+	color: #111;
+	text-align: left;
+}
+
+.cryptlog table td {
+	padding: 5px;
+    border-bottom: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+}
