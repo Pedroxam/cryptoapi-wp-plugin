@@ -177,4 +177,4 @@ class CryptoApi
 }
 
 //Start System
-$weekly = new CryptoApi();
+$cryptapi = new CryptoApi();
