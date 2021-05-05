@@ -74,6 +74,7 @@ Example:
 Set this to 1 if you wish to receive the callback as a POST request (default: GET)
 
 Using CryptApi Shortcode in Pages
+
 do_shortcode('[cryptapi coin="YOUR_COIN" wallet="YOUR_WALLET" callback="YOUR_CALLBACK_URL_OR_LEAVE_EMPTY"]');
 
 Result can be new deposit address.
