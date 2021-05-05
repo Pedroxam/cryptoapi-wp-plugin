@@ -31,7 +31,7 @@ Example:
 
 [cryptapi coin="BTC" wallet="d3123456789..." email="name@email.com"]
 
-E-mail address to receive payment notifications (default: admin email: pedroxam@gmail.com )
+E-mail address to receive payment notifications (default: admin email )
 
 Generate new address with pending notified:
 
