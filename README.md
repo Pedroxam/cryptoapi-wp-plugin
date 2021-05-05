@@ -32,7 +32,9 @@ Example:
 [cryptapi coin="BTC" wallet="d3123456789..." email="name@email.com"]
 
 E-mail address to receive payment notifications (default: admin email: pedroxam@gmail.com )
+
 Generate new address with pending notified:
+
 [cryptapi coin="YOUR_COIN" wallet="YOUR_WALLET" callback="YOUR_CALLBACK_URL" pending="1"]
 
 Example:
@@ -40,7 +42,9 @@ Example:
 [cryptapi coin="BTC" wallet="d3123456789..." callback="http://myhost.com/query" pending="1"]
 
 Set this to 1 if you want to be notified of pending transactions (before they're confirmed) (default: False)
+
 Generate new address with confirmations notified:
+
 [cryptapi coin="YOUR_COIN" wallet="YOUR_WALLET" callback="YOUR_CALLBACK_URL" confirmations="1"]
 
 Example:
@@ -48,7 +52,9 @@ Example:
 [cryptapi coin="BTC" wallet="d3123456789..." confirmations="1"]
 
 Number of confirmations you want before receiving the callback (Min. 1) (default: 1)
+
 Generate new address with priority:
+
 [cryptapi coin="YOUR_COIN" wallet="YOUR_WALLET" priority="fast, default, economic"]
 
 Example:
@@ -56,7 +62,9 @@ Example:
 [cryptapi coin="BTC" wallet="d3123456789..." priority="fast"]
 
 Set confirmation priority, needs to be one of ['fast', 'default', 'economic'] (Attention: this will impact network fees) - (default: default)
+
 Generate new address with post method:
+
 [cryptapi coin="YOUR_COIN" wallet="YOUR_WALLET" callback="YOUR_CALLBACK_URL" post="1"]
 
 Example:
