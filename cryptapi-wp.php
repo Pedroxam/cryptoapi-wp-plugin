@@ -15,7 +15,7 @@ if ( !function_exists( 'add_action' ) ) {
 class CryptoApi
 {
     /**
-     * PedramWeekly constructor.
+     *  constructor.
      */
     public function __construct()
     {
