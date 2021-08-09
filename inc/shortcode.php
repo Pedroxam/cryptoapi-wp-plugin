@@ -63,6 +63,9 @@ function generateAddress($args)
 	if(isset($decode['reason'])){
 		echo $decode['reason'];
 	}
+	else if(isset($decode['error'])){
+		echo $decode['error'];
+	}
 	else echo $decode['address_in'];
 
 	return null;
