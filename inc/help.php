@@ -151,10 +151,4 @@
 	<?php echo htmlentities("<?php echo do_shortcode('[cryptapi coin=\"YOUR_COIN\" wallet=\"YOUR_WALLET\" callback=\"YOUR_CALLBACK_URL_OR_LEAVE_EMPTY\"]'); ?>") ?>
 	<b>
 	
-	<br/>
-	<br/>
-	<div>
-		Result can be new deposit address.
-	</div>
-	
 </div>
