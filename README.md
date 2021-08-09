@@ -77,9 +77,11 @@ Set this to 1 if you wish to receive the callback as a POST request (default: GE
 Using CryptApi Shortcode in Pages
 
 with deposit box:
+
 do_shortcode('[cryptapi box="true" coin="YOUR_COIN" wallet="YOUR_WALLET" callback="YOUR_CALLBACK_URL_OR_LEAVE_EMPTY"]');
 
 without deposit box:
+
 do_shortcode('[cryptapi coin="YOUR_COIN" wallet="YOUR_WALLET" callback="YOUR_CALLBACK_URL_OR_LEAVE_EMPTY"]');
 
 Result can be new deposit address.
