@@ -83,5 +83,3 @@ do_shortcode('[cryptapi box="true" coin="YOUR_COIN" wallet="YOUR_WALLET" callbac
 without deposit box:
 
 do_shortcode('[cryptapi coin="YOUR_COIN" wallet="YOUR_WALLET" callback="YOUR_CALLBACK_URL_OR_LEAVE_EMPTY"]');
-
-Result can be new deposit address.
