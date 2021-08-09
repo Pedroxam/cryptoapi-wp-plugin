@@ -9,7 +9,6 @@ function generateAddress($args)
 	$pending = (isset($args['pending']) && !empty($args['pending'])) ? $args['pending'] : FALSE;
 	$confirmations = (isset($args['confirmations']) && !empty($args['confirmations'])) ? $args['confirmations'] : null;
 	$priority = (isset($args['priority']) && !empty($args['priority'])) ? $args['priority'] : null;
-	$post = (isset($args['post']) && !empty($args['post'])) ? $args['post'] : null;
 
 	if( is_null($coin) or is_null($wallet) ){
 		exit("Please read cryptApi help.");
@@ -40,19 +39,10 @@ function generateAddress($args)
 		$priority = 'default';
 	}
 
-	if(!is_null($post)){
-		if(!in_array($post, ['1', 'GET'])){
-			$post = 'GET';
-		}
-	}
-	else {
-		$post = 'GET';
-	}
-
 	if(is_null($email))
 		$email = get_option('admin_email');
 
-	$api = "https://api.cryptapi.io/$coin/create/?callback=$callback&address=$wallet&pending=$pending&email=$email&priority=$priority&post=$post";
+	$api = "https://api.cryptapi.io/$coin/create/?callback=$callback&address=$wallet&pending=$pending&email=$email&priority=$priority";
 
 	$get = wp_remote_get($api);
 
@@ -67,7 +57,7 @@ function generateAddress($args)
 		echo $decode['error'];
 	}
 	else echo $decode['address_in'];
-
+	
 	return null;
 }
 
