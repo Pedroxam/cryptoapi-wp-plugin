@@ -71,7 +71,7 @@ function generateBox($address, $coin){
 	return '
 		<div class="cryptbox">
 			<div class="icon">
-				<img class="logo" border="0" alt="'.$coin.' Payment System" src="'.CRYPTO_URL . 'assets/images/' . $coin . '.png'.'" />
+				<img class="logo" border="0" alt="'.$coin.' Payment System" src="'.CRYPTO_URL . 'images/' . $coin . '.png'.'" />
 			</div>
 			<div class="desc">
 				Please Send '.strtoupper($coin).' to following address:
