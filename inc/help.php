@@ -8,6 +8,7 @@
 	<div>- All result is new deposit address.</div>
 	<div>- Leave callback url empty if you want to use default plugin callback (all callback logs can be display in logs page).</div>
 	<div>- Replace your details with red words.</div>
+	<div>- Use box="true" for showing deposit box.</div>
 	
 	<hr/>
 	<h4>
